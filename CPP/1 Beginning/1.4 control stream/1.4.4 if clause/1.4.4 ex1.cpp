@@ -18,5 +18,5 @@ int main()
         std::cout<<currval<<" occurs "
         <<cnt<<" times "<<std::endl;
     }
-    return 0;
+    return 0; 
 }
