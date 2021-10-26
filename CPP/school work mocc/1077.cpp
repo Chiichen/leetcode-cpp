@@ -12,7 +12,7 @@ int main()
     for(int j=0;j<=n;j++)
     {
         int cur=store[j];
-        if(cur%10-(cur-cur%100)/1000-(cur%1000-cur%100)/100-(cur%100-cur%10)/10>0)
+        if(cur%10-(cur/1000)%10-(cur/100)%10-(cur/10)%10>0)
         {
             m++;
         }

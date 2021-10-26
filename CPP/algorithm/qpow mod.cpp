@@ -7,6 +7,10 @@ ll qpow(ll base,ll n,ll mod){
 		if(n&1) ans*=base%mod;
 		base*=base;
 		n>>=1;
+        if(base>mod)
+        {
+            base=base%mod;
+        }
 	}
 	return ans%mod;
 }
