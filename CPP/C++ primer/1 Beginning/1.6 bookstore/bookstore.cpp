@@ -1,3 +1,5 @@
+#ifndef SALES_ITEM.HPP
+#define SALES_ITEM.HPP
 #include<iostream>
 #include"Sales_item.hpp"
 int main()
@@ -32,3 +34,4 @@ int main()
     return 0;
     
 }
+#endif

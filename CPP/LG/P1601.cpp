@@ -7,8 +7,8 @@ int main()
 {
     string s1,s2,add;
     int n1=0,n2=0,jw=0;
-    getline(cin,s1);
-    getline(cin,s2);
+    cin>>s1;//getline会WA！！考虑输入数据内带有空格
+    cin>>s2;
     if(s1.length()>s2.length())
     {
         for(int i=s2.length();i<s1.length();i++)
