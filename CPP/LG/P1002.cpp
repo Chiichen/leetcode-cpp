@@ -1,60 +1,39 @@
 #include<iostream>
 #include<vector>
 #include<string.h>
+#include<algorithm>
 using namespace std;
+long long move_x[9]{0,-2,-1,1,2,2,1,-1,-2};
+long long move_y[9]{0,1,2,2,1,-1,-2,-2,-1};
 int main()
 {
-    int bx,by,hx,hy;
-    int con=0;
+    long long bx,by,hx,hy;
     cin>>bx>>by>>hx>>hy;
-    hx+=1;
-    int a[bx+3][by+2]={0};
-    for(auto &e:a)
-    {
-        for(auto &l:e)
-        {
-            l=0;
-        }
-    }
-    for(int i=1;i<bx+2;i++)
-    {
-        for(int j=0;j<by+1;j++)
-        {
-            if((i!=hx-2||j!=hy-1)&&(i!=hx-1||j!=hy-2)&&(i!=hx+1||j!=hy-2)&&(i!=hx+2||j!=hy-1)&&(i!=hx+1||j!=hy+2)&&(i!=hx+2||j!=hy+1)&&(i!=hx-2||j!=hy+1)&&(i!=hx-1||j!=hy+2)&&(i!=hx||j!=hy))
-            {
-                a[i][j]=1;
-            }
-        }
-    }
-        for(int i=0;i<bx+3;i++)
-    {
-        for(int j=0;j<by+2;j++)
-        {
-            cout<<a[i][j]<<' ';
-        }
-        cout<<"I is"<<i<<endl;
-    }
-    long long f[bx+1][by+1];
+    long long f[bx+2][by+2];
     memset(f,0,sizeof(f));
-    f[1][0]=1,f[0][1]=1;
-    for(int i=0;i<=bx;i++)
+    f[1][2]=1,f[2][1]=1;    
+    for(long long i=0;i<9;i++)
     {
-        for(int j=0;j<=by;j++)
+        if(hx+1+move_x[i]>0&&hy+1+move_y[i]>0)
         {
-            if(a[i][j]==0||(i==1&&j==0)||(i==0&&j==1))
-            {
-                continue;
-            }
-            f[i][j]=f[i-1][j]+f[i][j-1];
+            f[hx+1+move_x[i]][hy+1+move_y[i]]=-1;
         }
     }
-    for(auto &e:f)
+
+    for(long long i=1;i<=bx+1;i++)
     {
-        for(auto &p:e)
+        for(long long j=1;j<=by+1;j++)
         {
-            cout<<p<<' ';
+            if(f[i][j]>=0&&(i!=1||j!=2)&&(i!=2||j!=1))
+                {
+                f[i][j]=max(move_x[0],f[i-1][j])+max(move_x[0],f[i][j-1]);    
+                }
+            
         }
-        cout<<endl;
+      
     }
-    cout<<f[bx][by];
+    cout<<f[bx+1][by+1];
+    
+
+
 }

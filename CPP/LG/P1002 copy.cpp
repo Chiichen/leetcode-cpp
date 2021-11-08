@@ -8,7 +8,7 @@ int main()
     int con=0;
     cin>>bx>>by>>hx>>hy;
     hx+=1;
-    int a[100][100]={0};
+    int a[bx+3][by+2]={0};
     for(auto &e:a)
     {
         for(auto &l:e)
@@ -34,7 +34,7 @@ int main()
         }
         cout<<"I is"<<i<<endl;
     }
-    long long f[100][100];
+    long long f[bx+1][by+1];
     memset(f,0,sizeof(f));
     f[1][0]=1,f[0][1]=1;
     for(int i=0;i<=bx;i++)
@@ -48,13 +48,13 @@ int main()
             f[i][j]=f[i-1][j]+f[i][j-1];
         }
     }
-    //for(auto &e:f)
-    //{
-    //    for(auto &p:e)
-    //    {
-    //        cout<<p<<' ';
-    //    }
-    //    cout<<endl;
-    //}
+    for(auto &e:f)
+    {
+        for(auto &p:e)
+        {
+            cout<<p<<' ';
+        }
+        cout<<endl;
+    }
     cout<<f[bx][by];
 }
