@@ -1,8 +1,12 @@
-num = []
-for i in range(2, 100):
-    for j in range(2, i):
-        if i%j==0:
-            break
+def dx(self,num:int) -> int:
+    if len(str(num))==1:
+        print(num)
     else:
-            num.append(i)
-print(num)
+        res=0
+        for i in str(num):
+            res+=int(i)
+        if 0<res<10:
+            print(res)
+        else:
+            return dx(num)
+        

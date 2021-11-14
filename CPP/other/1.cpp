@@ -2,20 +2,11 @@
 #include<vector>
 #include<math.h>
 #include<string>
+#include<bits/stdc++.h>
 using namespace std;
 int main()
 {
-    string s1="faker";
-    cout<<s1.size();
-    string::size_type n;
-    vector<int> ia={0,1,2};
-    vector<int> ia2(ia);
-    int b[10][10]={0};
-    for(auto &p:b)
-    {
-        for(auto &q:p)
-        {
-            
-        }
-    }
+    vector<int>n{0,1,2,3,5,1};
+    vector<int>ans(*max_element(n.begin(),n.end()));
+    for(auto e:ans) cout<<e;
 }
