@@ -17,7 +17,7 @@ public:
         }
         for(int i=0;i<s.size();i++)
         {
-            if(fre[s[i]]==1);
+            if(fre[s[i]]==1)
             return i;
         }
         return -1;
