@@ -6,10 +6,6 @@
 using namespace std;
 int main()
 {
-    string s="ab1b";
-    for(auto& e:s)
-    {
-        e=toupper(e);
-    }
-    cout<<s;
+    cout<<"Hello";
+    return 1;
 }
