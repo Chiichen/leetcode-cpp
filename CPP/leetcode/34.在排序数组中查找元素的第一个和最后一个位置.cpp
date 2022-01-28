@@ -9,15 +9,26 @@
 using namespace std;
 class Solution {
 public:
+    int search(vector<int>& nums, int target)
+    {
+        int n=nums.size();
+        int l=0,r=n-1;
+        while(l<=r){
+            int mid=l-(l-r)/2;
+            if(nums[mid]>=target) r=mid-1;
+            else l=mid+1;
+        }
+        return l;
+    }
     vector<int> searchRange(vector<int>& nums, int target) {
         int n=nums.size();
-        int first=0,end=n-1;
-        while(first!=target&&end!=target)
-        {
-            if(nums[(first+end)/2]>=0) end=(first+end)/2;
-            else if(nums[(first+end)/2]<0) first=(first+end)/2;
-            
-        }
+        if (n==0) return {-1,-1};
+        if(nums[n-1]<target) return{-1,-1};
+        int LIndex,RIndex;
+        LIndex=search(nums,target);
+        if(nums[LIndex]!=target) return {-1,-1};
+        RIndex=search(nums,target+1);
+        return{LIndex,RIndex-1};
     }
 };
 // @lc code=end
