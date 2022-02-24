@@ -2,6 +2,56 @@
 #define LIBRARY_H
 #include <string>
 #include <vector>
+
+
+
+
+class Catalogue
+{
+private:
+    /* data */
+
+public:
+    Catalogue(/* args */);
+    ~Catalogue();
+};
+
+Catalogue::Catalogue(/* args */)
+{
+}
+
+Catalogue::~Catalogue()
+{
+}
+
+
+
+
+class Library
+{
+private:
+    /* data */
+    int Library_NumberOfBooksOnLoan;
+    int Library_NumberOfBorrowers;
+    std::vector<Borrower>Library_Borrowers;
+    
+
+public:
+    Library(/* args */);
+    ~Library();
+};
+
+Library::Library(/* args */)
+{
+}
+
+Library::~Library()
+{
+}
+
+
+
+
 class Book
 {
 private:
@@ -24,6 +74,10 @@ public:
  Book::~Book()
 {
 }
+
+
+
+
 class Borrower
 {
 private:
@@ -33,7 +87,7 @@ private:
     int Borrower_LastName;
     int Borrower_NumberOfBooks;//The number of the books loaned by the borrower
     std::vector<std::string>Borrower_IdsOfBooks;
-    
+
 
 public:
     Borrower(/* args */);
