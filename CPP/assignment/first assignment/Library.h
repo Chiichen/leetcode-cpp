@@ -2,6 +2,9 @@
 #define LIBRARY_H
 #include <string>
 #include <vector>
+#include <unordered_map>
+#include <map>
+#include <iostream>
 
 
 
@@ -11,9 +14,15 @@ class Catalogue
 private:
     /* data */
 
+    int Catalogue_BookAmount;
+    std::map<std::string,Book>Catalogue_Books;
+
 public:
     Catalogue(/* args */);
     ~Catalogue();
+    void DisplayCatalogue() const;
+
+
 };
 
 Catalogue::Catalogue(/* args */)
@@ -31,14 +40,14 @@ class Library
 {
 private:
     /* data */
-    int Library_NumberOfBooksOnLoan;
-    int Library_NumberOfBorrowers;
-    std::vector<Borrower>Library_Borrowers;
-    
-
+    int Library_NumberOfBooksOnLoan;//借出书总数
+    int Library_NumberOfBorrowers;//借书人总数
+    std::vector<Borrower>Library_Borrowers;//借书人
+    Catalogue Library_Catalogue;
 public:
     Library(/* args */);
     ~Library();
+    void DisplayBookDatas()const;
 };
 
 Library::Library(/* args */)
@@ -65,6 +74,8 @@ private:
     
     
 public:
+    std::string GetBookId()const;
+    void DisplayBookData(std::string)const;//接受BookId输出书籍信息
     Book(/* args */);
     ~Book();
 };
@@ -82,7 +93,7 @@ class Borrower
 {
 private:
     /* data */
-    int Borrower_Id;
+    std::string Borrower_Id;
     int Borrower_FirstName;
     int Borrower_LastName;
     int Borrower_NumberOfBooks;//The number of the books loaned by the borrower
