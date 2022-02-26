@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CPP",
+    "\\CPP\\assignment",
+    "\\CPP\\assignment\\first assignment"
   ],
+  "SelectedNode": "\\CPP\\assignment\\first assignment\\Main.cpp",
   "PreviewInSolutionExplorer": false
 }

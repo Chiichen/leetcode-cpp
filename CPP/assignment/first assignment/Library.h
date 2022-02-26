@@ -1,64 +1,10 @@
-#ifndef LIBRARY_H
+﻿#ifndef LIBRARY_H
 #define LIBRARY_H
 #include <string>
 #include <vector>
 #include <unordered_map>
 #include <map>
 #include <iostream>
-
-
-
-
-class Catalogue:public Library
-{
-private:
-    /* data */
-
-    int Catalogue_BookAmount;
-    std::map<std::string,Book>Catalogue_Books;
-
-public:
-    Catalogue(/* args */);
-    ~Catalogue();
-    void DisplayCatalogue() const;
-
-
-};
-
-Catalogue::Catalogue(/* args */)
-{
-}
-
-Catalogue::~Catalogue()
-{
-}
-
-
-
-
-class Library
-{
-private:
-    /* data */
-    int Library_NumberOfBooksOnLoan;//借出书总数
-    int Library_NumberOfBorrowers;//借书人总数
-    std::vector<Borrower>Library_Borrowers;//借书人
-public:
-    Library(/* args */);
-    ~Library();
-    void DisplayBookDatas()const;
-};
-
-Library::Library(/* args */)
-{
-    Catalogue Library_Catalogue;   
-    std::cout<<"Welcome to the library system"<<std::endl;
-}
-
-Library::~Library()
-{
-    
-}
 
 
 
@@ -75,20 +21,18 @@ private:
     std::string Book_PublicationYear;
     std::string Book_Tittle;
 public:
+    void SetBook_TotalNum(int);
+    void SetBook_CurrentNum(int);
+    void SetBook_Id(std::string);
+    void SetBook_Author_FirstName(std::string);
+    void SetBook_Author_LastName(std::string);
+    void SetBook_PublicationYear(std::string);
+    void SetBook_Tittle(std::string);
     std::string GetBookId()const;
     void DisplayBookData()const;//输出书籍信息
     Book(std::string, std::string, std::string, std::string, std::string ,int);
     ~Book();
 };
-
- Book::Book(std::string Id, std::string Tittle, std::string FirstName, std::string Lastname, std::string YearPublished,int NumberOfCopies)
-    : Book_Id(Id),Book_Tittle(Tittle),Book_Author_FirstName(FirstName),Book_Author_LastName(Lastname),Book_PublicationYear(YearPublished),Book_TotalNum(NumberOfCopies)
-{
-    std::cout<<"A book is created"<<std::endl;
-}
- Book::~Book()
-{
-}
 
 
 
@@ -105,18 +49,53 @@ private:
 
 
 public:
+    void DisplayBorrowerData()const;
+    
     Borrower(std::string Id, std::string FirstName, std::string Lastname, int number, std::vector<std::string>BookID);
     ~Borrower();
 };
 
-Borrower::Borrower(std::string Id, std::string FirstName, std::string Lastname, int number, std::vector<std::string>BookID)
-{
-    std::cout<<"A borrower's information has been added"<<std::endl;
-}
 
-Borrower::~Borrower()
+
+
+
+class Catalogue
 {
-}
+private:
+    /* data */
+
+    int Catalogue_BookAmount;
+    std::map<std::string,Book*>Catalogue_Books;
+
+public:
+    void SetCatalogue_BookAmount(int);
+    void AddCatalogue_Books(std::string);
+    Catalogue(/* args */);
+    ~Catalogue();
+    void DisplayCatalogue() const;
+
+
+};
+
+
+
+
+class Library
+{
+private:
+    /* data */
+    int Library_NumberOfBooksOnLoan;//借出书总数
+    int Library_NumberOfBorrowers;//借书人总数
+    std::vector<Borrower*>Library_Borrowers;//借书人
+    std::string Library_Input;
+public:
+    Library(/* args */);
+    ~Library();
+    void DisplayBookDatas()const;
+    void DisplayBorrowersData()const;
+    Catalogue Library_Catalogue;
+};
+
 
 
 
