@@ -4,4 +4,4 @@ int main()
 {
     Library lib;
     return 0;
-} 
+} 3

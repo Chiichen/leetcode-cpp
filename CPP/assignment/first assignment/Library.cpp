@@ -36,7 +36,8 @@ bool is_digits(const std::string &str)
 }
 
 //以下是Borrower类的构造和析构函数
-Borrower::Borrower(std::string Id, std::string FirstName, std::string Lastname, int number, std::vector<std::string>BookID)
+Borrower::Borrower(std::string Id, std::string Name,int number, std::vector<std::string>BookID)
+    :Borrower_Id(Id),Borrower_Name(Name),Borrower_NumberOfBooks(number),Borrower_IdsOfBooks(BookID)
 {
     std::cout<<"A borrower's information has been added"<<std::endl;
 }
@@ -59,7 +60,29 @@ Library::Library(/* args */)
 {   
     
     std::cout<<"Welcome to the library system"<<std::endl;
-    std::cout<<"Please enter the number of books"<<std::endl;
+    // std::cout<<"Please enter the number of books"<<std::endl;
+    // std::getline(std::cin,Library_Input);
+    // while(is_digits(Library_Input)==0)
+    // {
+    //     std::cerr<<"Please enter a number"<<std::endl;
+    //     std::getline(std::cin,Library_Input);
+    // }
+    // int Amount = std::stoi(Library_Input);
+    // Library_Catalogue.SetCatalogue_BookAmount(Amount);
+    // Library_Input.erase();
+    // for (size_t i = 0; i < Amount; i++)
+    // {
+    //     std::cout<<"请按图书编码  书名  作者  出版年份  图书总数的顺序输入第"<<i+1<<"本图书信息"<<std::endl;
+    //     std::getline(std::cin,Library_Input);
+    //     while(!isupper(Library_Input[0]))
+    //     {
+    //         std::cerr<<"The book's Id must start with an upper letter, please enter a data again"<<std::endl;
+    //         std::getline(std::cin,Library_Input);
+    //     }
+    //     Library_Catalogue.AddCatalogue_Books();
+    // }
+    Library_Catalogue.AddCatalogue_Books();
+    std::cout<<"Please enter the number of borrowers"<<std::endl;
     std::getline(std::cin,Library_Input);
     while(is_digits(Library_Input)==0)
     {
@@ -67,21 +90,25 @@ Library::Library(/* args */)
         std::getline(std::cin,Library_Input);
     }
     int Amount = std::stoi(Library_Input);
-    Library_Catalogue.SetCatalogue_BookAmount(Amount);
-    Library_Input.erase();
+    Library_NumberOfBorrowers=Amount;
     for (size_t i = 0; i < Amount; i++)
     {
-        std::cout<<"请按图书编码  书名  作者  出版年份  图书总数的顺序输入第"<<i+1<<"本图书信息"<<std::endl;
+        std::cout<<"请按借书人编号  借书人名字  借书数量  书籍编号顺序输入借书人信息"<<std::endl;
         std::getline(std::cin,Library_Input);
-        while(!isupper(Library_Input[0]))
+        std::vector<std::string>Current_data;
+        Current_data=SplitString(Library_Input,";");
+        while (is_digits(Current_data[0])==0||Current_data[0].size()!=5)
         {
-            std::cerr<<"The book's Id must start with an upper letter, please enter a data again"<<std::endl;
+            Current_data.clear();
+            std::cerr<<"The borrower's Id must be five digits"<<std::endl;
             std::getline(std::cin,Library_Input);
+            Current_data=SplitString(Library_Input,";");
         }
-        Library_Catalogue.AddCatalogue_Books(Library_Input);
+        
+        
+
     }
     
-
 }
 
 Library::~Library()
@@ -130,8 +157,27 @@ void Book::DisplayBookData()const
 
 //以下是Catalogue类的数据成员修改及读取函数
 void Catalogue::SetCatalogue_BookAmount(int Num){Catalogue_BookAmount=Num;}
-void Catalogue::AddCatalogue_Books(std::string Str)
+void Catalogue::AddCatalogue_Books()
 {
+    std::string Str;
+    std::cout<<"Please enter the number of books"<<std::endl;
+    std::getline(std::cin,Str);
+    while(is_digits(Str)==0)
+    {
+        std::cerr<<"Please enter a number"<<std::endl;
+        std::getline(std::cin,Str);
+    }
+    int Amount = std::stoi(Str);
+    Str.erase();
+    for (size_t i = 0; i < Amount; i++)
+    {
+        std::cout<<"请按图书编码  书名  作者  出版年份  图书总数的顺序输入第"<<i+1<<"本图书信息"<<std::endl;
+        std::getline(std::cin,Str);
+        while(!isupper(Str[0]))
+        {
+            std::cerr<<"The book's Id must start with an upper letter, please enter a data again"<<std::endl;
+            std::getline(std::cin,Str);
+        }
     std::vector<std::string>BookDataVector=SplitString(Str,";");
     Book* BookData=new Book(BookDataVector[0],BookDataVector[1],BookDataVector[2],BookDataVector[3],std::stoi(BookDataVector[4]));
     auto iter = Catalogue_Books.find(BookData->GetBookId());
@@ -148,6 +194,7 @@ void Catalogue::AddCatalogue_Books(std::string Str)
 
 
 }
+}
 
 
 //以下是Catalogue类的成员函数
@@ -159,10 +206,16 @@ void Catalogue::DisplayCatalogue() const
 }
 //以下是Library类的数据成员修改函数
 
+
+void Library::AddBorrowerData(std::string)
+{
+    
+}
+//以下是Library类的成员函数
+
 void Library::DisplayBookDatas()const
 {
     std::cout<<"Total number of books on loan:"<<Library_NumberOfBooksOnLoan<<std::endl;
     std::cout<<"Total number of borrowers:"<<Library_NumberOfBorrowers<<std::endl;
 
 }
-//以下是Library类的成员函数
