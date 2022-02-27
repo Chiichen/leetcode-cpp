@@ -49,7 +49,11 @@ private:
 
 public:
     void DisplayBorrowerData()const;
-    
+    void SetBorrower_NumberOfBooks(int);
+    void SetBorrower_IdsOfBooks(std::vector<std::string>);
+    int GetBorrower_NumberOfBooks()const;
+    std::vector<std::string>GetBorrower_IdsOfBooks()const;
+    std::string GetBorrower_Id()const;
     Borrower(std::string Id, std::string Name, int number, std::vector<std::string>BookID);
     ~Borrower();
 };
@@ -68,6 +72,8 @@ private:
     std::map<std::string,Book*>Catalogue_Books;
 
 public:
+    bool FindBook(std::string)const;
+    Book* GetBook(std::string);
     void SetCatalogue_BookAmount(int);
     void AddCatalogue_Books();
     Catalogue(/* args */);
@@ -93,7 +99,7 @@ public:
     ~Library();
     void DisplayBookDatas()const;
     void DisplayBorrowersData()const;
-    void AddBorrowerData(std::string);
+    void AddBorrowerData();
     Catalogue Library_Catalogue;
 };
 
