@@ -13,9 +13,9 @@ class Book
 {
 private:
     /* data */
-    int Book_TotalNum;
-    int Book_CurrentNum;
-    int Book_BorrowerNum;
+    int Book_TotalNum=0;
+    int Book_CurrentNum=0;
+    int Book_BorrowerNum=0;
     std::string Book_Id;
     std::string Book_Author_Name;
     std::string Book_PublicationYear;
@@ -70,13 +70,13 @@ class Catalogue
 {
 private:
     /* data */
-
     int Catalogue_BookAmount=0;
     std::string Catalogue_Input;
     std::map<std::string,Book*>Catalogue_Books;
 
 public:
     bool FindBook(std::string)const;
+    int GetCatalogue_BookNum()const;
     Book* GetBook(std::string);
     void SetCatalogue_BookAmount(int);
     void AddCatalogue_Books();
@@ -108,6 +108,7 @@ public:
     void DisplayBorrowersData()const;
     void AddBorrowerData();
     Catalogue Library_Catalogue;
+    
 };
 
 

@@ -4,7 +4,7 @@
 #include <cstring>
 #include <ctype.h>
 
-std::vector<std::string> SplitString(const std::string &str, const std::string &pattern)//从书籍或借书人字符串中读取信息
+std::vector<std::string>& SplitString(const std::string &str, const std::string &pattern)//从书籍或借书人字符串中读取信息
 {
     char * strc = new char[std::strlen(str.c_str())+1];
     strcpy(strc, str.c_str());   //string转换成C-string
@@ -20,13 +20,13 @@ std::vector<std::string> SplitString(const std::string &str, const std::string &
 }
 
 
-bool is_digits(const std::string &str)
+bool is_digits( std::string str)
 {
     return std::all_of(str.begin(), str.end(), ::isdigit); // 判断是否全为数字
 }
 
 //以下是Book类的构造和析构函数
- Book::Book(std::string Id, std::string Tittle, std::string Name, std::string YearPublished,int NumberOfCopies)
+ Book::Book(std::string Id, std::string Tittle, std::string Name, std::string YearPublished,int NumberOfCopies)//autp ptr= new Book(, , , , , ,)
     : Book_Id(Id),Book_Tittle(Tittle),Book_Author_Name(Name),Book_PublicationYear(YearPublished),Book_TotalNum(NumberOfCopies)
 {
     Book_CurrentNum=Book_TotalNum;
@@ -34,6 +34,7 @@ bool is_digits(const std::string &str)
 }
  Book::~Book()
 {
+    
 }
 
 //以下是Borrower类的构造和析构函数
@@ -61,9 +62,9 @@ Library::Library(/* args */)
 {   
     
     std::cout<<"Welcome to the library system"<<std::endl;
-    Library_Catalogue.AddCatalogue_Books();
+    Library_Catalogue.AddCatalogue_Books();//catalogue的初始化
 
-    AddBorrowerData();
+    AddBorrowerData();//borrower的初始化
 }
 
 Library::~Library()
@@ -83,6 +84,8 @@ void Book::SetBook_Id(std::string Str){Book_Id=Str;}
 void Book::SetBook_Author_Name(std::string Str){Book_Author_Name=Str;}
 void Book::SetBook_PublicationYear(std::string Str){Book_PublicationYear=Str;}
 void Book::SetBook_Tittle(std::string Str){Book_Tittle=Str;}
+void Book::SetBook_BorrowerNum(int num){Book_BorrowerNum=num;}
+int Book::GetBook_BorrowerNum()const{return Book_BorrowerNum;}
 std::string Book::GetBookId()const{return Book_Id;}
 int Book::GetBook_TotalNum()const {return Book_TotalNum;}
 int Book::GetBook_CurrentNum()const {return Book_CurrentNum;}
@@ -91,6 +94,7 @@ int Book::GetBook_CurrentNum()const {return Book_CurrentNum;}
 //以下是Book类的成员函数
 void Book::DisplayBookData()const
 {
+    std::cout<<"Book ID"<<Book_Id<<std::endl;
     std::cout<<"Title:"<<Book_Tittle<<std::endl;
     std::cout<<"Author:"<<Book_Author_Name<<std::endl;
     std::cout<<"Year published:"<<Book_PublicationYear<<std::endl;
@@ -134,12 +138,12 @@ void Borrower::SetBorrower_IdsOfBooks(std::vector<std::string>Vec)
 //以下是Borrower类的成员函数
 void Borrower::DisplayBorrowerData()const
 {
-    std::cout<<"Borrower ID:"<<GetBorrower_Id()<<std::endl;
-    std::cout<<"Borrower Name"<<GetBorrower_Name();
-    std::cout<<"The amount of books on loan"<<GetBorrower_NumberOfBooks()<<std::endl;
+    std::cout<<"Borrower ID: "<<GetBorrower_Id()<<std::endl;
+    std::cout<<"Name: "<<GetBorrower_Name();
+    std::cout<<"Number of loaned books: "<<GetBorrower_NumberOfBooks()<<std::endl;
     for (size_t i = 0; i < Borrower_IdsOfBooks.size(); i++)
     {
-        std::cout<<"第"<<i+1<<"本书的ID为"<<Borrower_IdsOfBooks[i]<<std::endl;
+        std::cout<<"ID of books on loan: "<<Borrower_IdsOfBooks[i]<<std::endl;
     }
     
 
@@ -166,7 +170,7 @@ void Catalogue::AddCatalogue_Books()
         std::getline(std::cin,Str);
         std::vector<std::string>BookDataVector=SplitString(Str,";");     
         //以下是输入信息判断部分   
-        while (BookDataVector.size()!=5||!isupper(Str[0])||BookDataVector[3].size()!=4||(BookDataVector[3][0]!='1'||BookDataVector[3][0]!='2'))
+        while (BookDataVector.size()!=5||!isupper(Str[0])||BookDataVector[3].size()!=4||(BookDataVector[3][0]!='1'&&BookDataVector[3][0]!='2'))
         {
             while (BookDataVector.size()!=5)
             {
@@ -183,7 +187,7 @@ void Catalogue::AddCatalogue_Books()
                 std::getline(std::cin,Str);
                 BookDataVector=SplitString(Str,";");
             }
-            while(BookDataVector[3].size()!=4||(BookDataVector[3][0]!='1'||BookDataVector[3][0]!='2'))
+            while(BookDataVector[3].size()!=4||(BookDataVector[3][0]!='1'&&BookDataVector[3][0]!='2'))
             {
                 BookDataVector.clear();
                 std::cerr<<"The publication year is wrong , please enter again"<<std::endl;
@@ -196,7 +200,7 @@ void Catalogue::AddCatalogue_Books()
 
     Book* BookData=new Book(BookDataVector[0],BookDataVector[1],BookDataVector[2],BookDataVector[3],std::stoi(BookDataVector[4]));
     auto iter = Catalogue_Books.find(BookData->GetBookId());
-    Catalogue_BookAmount+=std::stoi(BookDataVector[5]);
+    Catalogue_BookAmount+=std::stoi(BookDataVector[4]);
     if(iter!=Catalogue_Books.end())
     {
         iter->second->SetBook_TotalNum(iter->second->GetBook_TotalNum()+BookData->GetBook_TotalNum());
@@ -215,6 +219,11 @@ void Catalogue::AddCatalogue_Books()
 
 
 //以下是Catalogue类的成员函数
+int Catalogue::GetCatalogue_BookNum()const
+{
+    return Catalogue_Books.size();
+}
+
 bool Catalogue::FindBook(std::string str)const
 {
     if(Catalogue_Books.find(str)!=Catalogue_Books.end()) return true;
@@ -232,8 +241,12 @@ void Catalogue::DisplayBookData(std::string str)const
 }
 void Catalogue::DisplayBookData()const
 {
+    int i = 0;
     for (auto iter = Catalogue_Books.begin(); iter != Catalogue_Books.end(); iter++)
     {
+        std::cout<<"Book Record "<<i<<std::endl;
+        std::cout<<"============="<<std::endl;
+        i++;
         iter->second->DisplayBookData();
     }
     
@@ -342,11 +355,23 @@ void Library::AddBorrowerData()
         else
         {
         Library_Borrowers[BorrowerData->GetBorrower_Id()]=BorrowerData;
+        Library_NumberOfBorrowers++;
         }
         for (size_t k = 0; k < BookAmount; k++)
         {
             auto ptr = Library_Catalogue.GetBook(CurrentBorrowBookData[k]);
-            ptr->SetBook_CurrentNum(ptr->GetBook_CurrentNum()-1);//并没有处理库存不足时的借书问题
+            ptr->SetBook_BorrowerNum(ptr->GetBook_BorrowerNum()+1);
+            if(ptr->GetBook_CurrentNum()-1>=0)
+            {
+            ptr->SetBook_CurrentNum(ptr->GetBook_CurrentNum()-1);                
+            }
+            else
+            {
+                std::cerr<<"There is no available copies in library, please enter the data again"<<std::endl;
+                AddBorrowerData();
+            }
+
+            
         }
         Library_NumberOfBooksOnLoan+=BookAmount;
 
@@ -359,14 +384,17 @@ void Library::AddBorrowerData()
 
 void Library::DisplayBookDatas()const
 {
-    std::cout<<"Total number of books on loan:"<<Library_NumberOfBooksOnLoan<<std::endl;
-    std::cout<<"Total number of borrowers:"<<Library_NumberOfBorrowers<<std::endl;
-
+    std::cout<<"The total number of book records is"<<Library_Catalogue.GetCatalogue_BookNum()<<std::endl;
+    Library_Catalogue.DisplayBookData();
 }
 void Library::DisplayBorrowersData()const
 {
+    int i = 0;
     for (auto iter = Library_Borrowers.begin(); iter !=Library_Borrowers.end(); iter++)
     {
+        std::cout<<"Borrower "<<i<<std::endl;
+        std::cout<<"============="<<std::endl;
+        i++;
         iter->second->DisplayBorrowerData();
     }
     

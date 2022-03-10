@@ -1,7 +1,14 @@
+//!!!!!!!!注意！请使用编译器调试模式打开，不要使用控制台打开，否则会由于编码问题出现中文乱码。
+
+
+
 #include "Library.h"
 #include "Library.cpp"
+#include <cstdlib>
 int main()
 {
+   
+    std::system("chcp 65001");//为了在cmd控制台打开时不出现乱码
     Library lib;
     while (1)
     {
@@ -11,8 +18,7 @@ int main()
         std::cout<<"按3借书"<<std::endl;
         std::cout<<"按4打印现有借书人信息"<<std::endl;
         std::cout<<"按5查询书籍"<<std::endl;
-        std::cout<<"按6对现有书籍信息进行修改"<<std::endl;
-        std::cout<<"按7退出程序"<<std::endl;
+        std::cout<<"按6退出程序"<<std::endl;
         std::cin>>Exp;
         switch (Exp)
         {
@@ -38,7 +44,7 @@ int main()
 
         case 4:
         {
-            lib.DisplayBookDatas();
+            lib.DisplayBorrowersData();
             break;            
         }
 
@@ -57,15 +63,11 @@ int main()
             {
             lib.Library_Catalogue.DisplayBookData(ID);                
             }
+            break;
         }
             
-            break;
-        case 6:
-        {
 
-        }
-        break;
-        case 7:
+        case 6:
         {
             return 0;
         }
