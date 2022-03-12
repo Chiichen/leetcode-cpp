@@ -4,16 +4,17 @@
 #include <cstring>
 #include <ctype.h>
 
-std::vector<std::string>& SplitString(const std::string &str, const std::string &pattern)//从书籍或借书人字符串中读取信息
+std::vector<std::string> SplitString(const std::string &str, const std::string &pattern)//从书籍或借书人字符串中读取信息
 {
     char * strc = new char[std::strlen(str.c_str())+1];
-    strcpy(strc, str.c_str());   //string转换成C-string
+    char *nexttoken = nullptr;
+    std::copy(str.begin(),str.end(),strc); //string转换成C-string
     std::vector<std::string> res;
-    char* temp = strtok(strc, pattern.c_str());
+    char* temp = strtok_s(strc, pattern.c_str(),&nexttoken);
     while(temp != NULL)
     {
         res.push_back(std::string(temp));
-        temp = strtok(NULL, pattern.c_str());
+        temp = strtok_s(NULL, pattern.c_str(),&nexttoken);
     }
     delete[] strc;
     return res;
