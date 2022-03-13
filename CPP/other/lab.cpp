@@ -1,9 +1,7 @@
-#include <iostream>
-#include <vector>
-#include "Library.h"
+#include <bits/stdc++.h>
+#include<memory>
 using namespace std;
 int main()
 {
-	Book book(````,````,```,```)
-	return 0;
+
 }
