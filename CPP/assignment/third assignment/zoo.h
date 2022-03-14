@@ -6,6 +6,17 @@
 #include <iostream>
 #include <vector>
 
+class Money
+{
+private:
+    double Cents;
+public:
+    Money(double&&);
+    ~Money();
+};
+
+
+
 class Animal
 {
 private:
@@ -50,7 +61,7 @@ public:
     void SetAnimalFood_FoodType(std::string AnimalFood_FoodType);
     int GetAnimalFood_FoodAmount() const;
     void SetAnimalFood_FoodAmount(int AnimalFood_FoodAmount);    
-    AnimalFood(std::string);
+    AnimalFood(const char[]);
     ~AnimalFood();
 };
 
@@ -146,13 +157,19 @@ public:
 class Child:public Visitor
 {
 private:
-    AnimalFood Peanuts={"Peanuts"};
+    AnimalFood Peanuts{"Peanuts"};
+    AnimalFood Carrots{"Carrots"};
+    AnimalFood Bananas{"Bananas"};
 public:
     Child(/* args */);
     ~Child();
 };
 
-
+class Adult:public Visitor
+{
+private:
+    Mon
+};
 
 
 

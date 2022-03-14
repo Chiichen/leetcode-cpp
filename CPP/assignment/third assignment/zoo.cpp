@@ -1,5 +1,28 @@
 #include "zoo.h"
 
+//以下是Money类的构造和析构函数
+Money::Money(double&& d)
+:Cents(0)
+{
+    Cents=d;
+    d=0;
+}
+
+
+
+
+//以下是类的构造和析构函数
+
+//以下是类的构造和析构函数
+//以下是类的构造和析构函数
+//以下是类的构造和析构函数
+//以下是类的构造和析构函数
+
+
+
+
+
+
 
 std::string AnimalFood::GetAnimalFood_FoodType() const {
         return AnimalFood_FoodType;
@@ -17,10 +40,10 @@ void AnimalFood::SetAnimalFood_FoodAmount(int AnimalFood_FoodAmount) {
         AnimalFood_FoodAmount = AnimalFood_FoodAmount;
     }
 
-AnimalFood::AnimalFood(std::string str)
-:AnimalFood_FoodType(str)
+AnimalFood::AnimalFood(const char ch [] )
+:AnimalFood_FoodType(std::string(ch))
 {
-
+    delete [] ch;
 }
 
 
@@ -29,18 +52,18 @@ AnimalFood::AnimalFood(std::string str)
 
 
 
-int GetAnimalEnclosure_DirtLevel() const {
+int AnimalEnclosure::GetAnimalEnclosure_DirtLevel() const {
     return AnimalEnclosure_DirtLevel;
 }
 
-void SetAnimalEnclosure_DirtLevel(int AnimalEnclosure_DirtLevel) {
+void AnimalEnclosure::SetAnimalEnclosure_DirtLevel(int AnimalEnclosure_DirtLevel) {
     AnimalEnclosure_DirtLevel = AnimalEnclosure_DirtLevel;
 }
 
-bool GetAnimalEnclosure_Status() const {
+bool AnimalEnclosure::GetAnimalEnclosure_Status() const {
     return AnimalEnclosure_Status;
 }
 
-void SetAnimalEnclosure_Status(bool AnimalEnclosure_Status) {
+void AnimalEnclosure::SetAnimalEnclosure_Status(bool AnimalEnclosure_Status) {
     AnimalEnclosure_Status = AnimalEnclosure_Status;
 }
