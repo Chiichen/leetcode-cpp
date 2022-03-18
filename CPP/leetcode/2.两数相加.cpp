@@ -16,18 +16,46 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* head=new ListNode(0);
-        auto det=head;
-        int up=0;
-        auto det1=l1,det2=l2;
-        while(det1!=nullptr||det2!=nullptr)
+        auto dumbl1 = new ListNode(0,l1);
+        auto dumbl2 = new ListNode(0,l2);
+        auto head1 = new ListNode((l1->val+l2->val)%10);
+        auto head=head1;
+        auto last = head;
+        int add = (l1->val+l2->val)/10;
+        
+        while(l1!=nullptr||l2!=nullptr)
         {
-            if(det1==nullptr&&det2==nullptr) break;
-            det->val=(det1->val+det2->val+up)%10;
-            det->next=new ListNode(0);
-            up=(det1->val+det2->val)/10;
-            det=det->next,det1=det1->next,det2=det2->next;
+            if(l1!=nullptr&&l2!=nullptr)
+            {
+                delete last;
+                last=nullptr;
+                auto last = new ListNode((l1->val+l2->val+add)%10);
+                head->next=last;
+                ++head;
+                add = (l1->val+l2->val)%10;
+                l1=l1->next;
+                l2=l2->next;
+            }
+            else if(l1!=nullptr&&l2==nullptr)
+            {
+                //delete last;
+                auto last = new ListNode(l1->val);
+                head->next=last;
+                ++head;
+                add=0;
+                l1=l1->next;
+            }
+            else if (l1==nullptr&&l2!=nullptr)
+            {
+                //delete last;
+                auto last = new ListNode(l2->val);
+                head->next=last;
+                ++head;
+                add=0;
+                l2=l2->next;
+            }
         }
+        last->next=nullptr;
         return head;
     }
 };

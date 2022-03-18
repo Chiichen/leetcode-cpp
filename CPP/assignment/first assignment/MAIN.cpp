@@ -1,10 +1,10 @@
 #include "Library.h"
-//#include"Library.cpp"在vscode中无法成功链接源文件，在VS中可以
+#include"Library.cpp"//在vscode中无法成功链接源文件，在VS中可以
 #include <cstdlib>
 int main()
 {
    
-    // std::system("chcp 65001");//为了在cmd控制台打开时不出现乱码
+     std::system("chcp 65001");//为了在cmd控制台打开时不出现乱码
     Library lib;
     while (1)
     {

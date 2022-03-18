@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 #include<memory>
+#include <string>
 using namespace std;
 void display(const char ch [])
     {

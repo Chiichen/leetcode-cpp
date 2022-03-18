@@ -288,8 +288,8 @@ void Library::AddBorrowerData()
         std::vector<std::string>Current_data;
         Current_data=SplitString(Library_Input,";");
         //以下是输入信息筛查部分
-        bool LibExist=false;//标记图书馆中是否有此书；
-        while(is_digits(Current_data[0])==0||Current_data[0].size()!=5||Current_data.size()<4||Current_data.size()!=std::stoi(Current_data[2])+3||std::stoi(Current_data[2])>5||!LibExist)
+        //bool LibExist=false;//标记图书馆中是否有此书；
+        while(is_digits(Current_data[0])==0||Current_data[0].size()!=5||Current_data.size()<4||Current_data.size()!=std::stoi(Current_data[2])+3||std::stoi(Current_data[2])>5)
         {
             while (is_digits(Current_data[0])==0||Current_data[0].size()!=5)
             {
@@ -321,21 +321,21 @@ void Library::AddBorrowerData()
                 std::getline(std::cin,Library_Input);
                 Current_data=SplitString(Library_Input,";");
             }
-            while (!LibExist)
-            {
-                for (size_t k = 0; k < std::stoi(Current_data[2]); k++)
-                {
-                    if (!Library_Catalogue.FindBook(Current_data[3+k]))
-                    {
-                        std::cerr<<"所借图书在图书馆中未查询到，请重新输入"<<std::endl;
-                        Current_data.clear();
-                        std::getline(std::cin,Library_Input);
-                        Current_data=SplitString(Library_Input,";");
-                        break;
-                    }
-                    LibExist=true;
-                }  
-            }                 
+            // while (!LibExist)
+            // {
+            //     for (size_t k = 0; k < std::stoi(Current_data[2]); k++)
+            //     {
+            //         if (!Library_Catalogue.FindBook(Current_data[3+k]))
+            //         {
+            //             std::cerr<<"所借图书在图书馆中未查询到，请重新输入"<<std::endl;
+            //             Current_data.clear();
+            //             std::getline(std::cin,Library_Input);
+            //             Current_data=SplitString(Library_Input,";");
+            //             break;
+            //         }
+            //         LibExist=true;
+            //     }  
+            // }                 
         }
 
         //筛查部分结束，确认信息合法

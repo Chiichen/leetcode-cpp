@@ -52,20 +52,22 @@ void Matrix::operator -=(const Matrix& m)
     *this = *this-m;
 }
 
-void operator *( Matrix& m, int num)
+Matrix& operator *( Matrix& m, int num)
 {
     m.M11*=num;
     m.M12*=num;
     m.M21*=num;
     m.M22*=num;
+    return m;
 }
 
-void operator *(int num, Matrix& m)
+Matrix& operator *(int num, Matrix& m)
 {
     m.M11*=num;
     m.M12*=num;
     m.M21*=num;
     m.M22*=num;
+    return m;
 }
 
 bool Matrix::operator ==(const Matrix& m)const

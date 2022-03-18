@@ -18,8 +18,8 @@ public:
     void operator -=(const Matrix& );
     bool operator ==(const Matrix& ) const;
     bool operator !=(const Matrix& ) const;
-    friend void operator *(const int,Matrix& );
-    friend void operator *(Matrix& ,const int);
+    friend Matrix& operator *(const int,Matrix& );
+    friend Matrix& operator *(Matrix& ,const int);
     friend std::istream &operator >>(std::istream& , Matrix&);
     friend std::ostream &operator <<(std::ostream& , Matrix&);
     void DisplayMatrix()const;
