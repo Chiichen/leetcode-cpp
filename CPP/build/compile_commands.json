@@ -1,0 +1,7 @@
+[
+{
+  "directory": "D:/my repo/SummerDay/CPP/build",
+  "command": "D:\\MinGW-x64\\mingw64\\bin\\x86_64-w64-mingw32-g++.exe   -O3 -DNDEBUG -o CMakeFiles\\CPP.dir\\main.cpp.obj -c \"D:\\my repo\\SummerDay\\CPP\\main.cpp\"",
+  "file": "D:/my repo/SummerDay/CPP/main.cpp"
+}
+]
