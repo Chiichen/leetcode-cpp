@@ -7,13 +7,15 @@
 // @lc code=start
 #include <bits/stdc++.h>
 using namespace std;
-class Solution {
+class Solution
+{
 public:
-    vector<vector<int>> permuteUnique(vector<int>& nums) {
+    vector<vector<int>> permuteUnique(vector<int> &nums)
+    {
         int level = 0;
         int n = nums.size();
         vector<vector<int>> ans;
-        trackback(ans,nums,level,n);
+        trackback(ans, nums, level, n);
         return ans;
     }
     void trackback(vector<vector<int>> &ans, vector<int> &nums, int level, int n)
@@ -25,22 +27,29 @@ public:
         }
         else
         {
+            unordered_set<int> set;
             for (int i = level; i < n; i++)
             {
-                if (nums[i]!=nums[level])
+
+                if (!set.count(nums[i]))
                 {
-                    cout<<i<<' '<<level<<endl;
+                    cout << i << ' ' << level << endl;
+                    set.insert(nums[i]);
                     swap(nums[i], nums[level]);
                     trackback(ans, nums, level + 1, n);
                     swap(nums[i], nums[level]);
                 }
-                else if(i==n-1)
+                else
                 {
-                    //trackback(ans, nums, level + 1, n);
+
+                    if (i == n - 1)
+                    {
+                        //trackback(ans, nums, level + 1, n);
+                    }
                 }
+
             }
         }
     }
 };
 // @lc code=end
-
