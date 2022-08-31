@@ -1,3 +1,0 @@
-add_subdirectory(first_assignment)
-add_subdirectory(second_assingment)
-add_subdirectory(third_ assignment)
