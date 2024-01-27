@@ -5,17 +5,17 @@
  */
 
 // @lc code=start
+#include <climits>
+using namespace std;
 class Solution {
 public:
-    int reverse(int x) {
-        long n =0;
-        while(x)
-        {
-            n=n*10+x%10;
-            x=x/10;
-        }
-        return n>INT_MAX||n<INT_MIN?0:n;
+  int reverse(int x) {
+    long n = 0;
+    while (x) {
+      n = n * 10 + x % 10;
+      x = x / 10;
     }
+    return n > INT_MAX || n < INT_MIN ? 0 : n;
+  }
 };
 // @lc code=end
-

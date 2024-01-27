@@ -5,6 +5,9 @@
  */
 
 // @lc code=start
+
+#ifdef LEETCODELOCAL
+
 #include <vector>
 using namespace std;
 // Definition for a binary tree node.
@@ -17,6 +20,8 @@ struct TreeNode {
   TreeNode(int x, TreeNode *left, TreeNode *right)
       : val(x), left(left), right(right) {}
 };
+
+#endif
 class Solution {
 private:
   int depth = 0;
