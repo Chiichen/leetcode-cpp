@@ -14,7 +14,8 @@ struct ListNode {
       ListNode(int x) : val(x), next(nullptr) {}
       ListNode(int x, ListNode *next) : val(x), next(next) {}
     };
-#include <bits/stdc++.h>
+#include <vector>
+#include <map>
 using namespace std;
 class Solution {
 public:

@@ -5,34 +5,28 @@
  */
 
 // @lc code=start
-#include <bits/stdc++.h>
+#include <stack>
+#include <string>
+#include <unordered_map>
 using namespace std;
 class Solution {
 public:
-    bool isValid(string s) {
-        unordered_map<char,char>map={
-            {')', '('},
-            {']', '['},
-            {'}', '{'}
-        };
-        stack<char> stk;
-        for(auto& e:s)
-        {
-            if(map.count(map[e])&&!stk.empty()){
-                if(map[e]==stk.top()){
-                    stk.pop();
-                }
-                else{
-                    stk.push(e);
-                }
-            }
-            else{
-                stk.push(e);
-            }
+  bool isValid(string s) {
+    unordered_map<char, char> map = {{')', '('}, {']', '['}, {'}', '{'}};
+    stack<char> stk;
+    for (auto &e : s) {
+      if (map.count(map[e]) && !stk.empty()) {
+        if (map[e] == stk.top()) {
+          stk.pop();
+        } else {
+          stk.push(e);
         }
-        return stk.empty();
+      } else {
+        stk.push(e);
+      }
     }
+    return stk.empty();
+  }
 };
 //"(){}}{"
 // @lc code=end
-

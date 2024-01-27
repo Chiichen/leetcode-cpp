@@ -5,7 +5,8 @@
  */
 
 // @lc code=start
-#include <bits/stdc++.h>
+#include <vector>
+#include <map>
 using namespace std;
 struct point
 {
