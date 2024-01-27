@@ -1,12 +1,13 @@
 /*
- * @lc app=leetcode.cn id=144 lang=cpp
+ * @lc app=leetcode.cn id=102 lang=cpp
  *
- * [144] 二叉树的前序遍历
+ * [102] 二叉树的层序遍历
  */
 
 // @lc code=start
 #include <vector>
 using namespace std;
+
 // Definition for a binary tree node.
 struct TreeNode {
   int val;
@@ -17,22 +18,35 @@ struct TreeNode {
   TreeNode(int x, TreeNode *left, TreeNode *right)
       : val(x), left(left), right(right) {}
 };
-
 class Solution {
+private:
+  int depth = 0;
+
 public:
-  vector<int> preorderTraversal(TreeNode *root) {
-    auto ans = vector<int>();
+  vector<vector<int>> levelOrder(TreeNode *root) {
+    auto ans = vector<vector<int>>();
+    if (root == nullptr) {
+      return ans;
+    }
+    ans.push_back(vector<int>());
     Traverse(root, ans);
+
     return ans;
   }
 
-  void Traverse(TreeNode *root, vector<int> &ans) {
+  void Traverse(TreeNode *root, vector<vector<int>> &ans) {
     if (root == nullptr) {
       return;
+    };
+    ans[depth].push_back(root->val);
+    depth++;
+    if (ans.size() <= depth &&
+        (root->right != nullptr || root->left != nullptr)) {
+      ans.push_back(vector<int>());
     }
-    ans.push_back(root->val);
     Traverse(root->left, ans);
     Traverse(root->right, ans);
+    depth--;
   }
 };
 // @lc code=end

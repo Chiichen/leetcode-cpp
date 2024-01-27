@@ -1,7 +1,7 @@
 /*
- * @lc app=leetcode.cn id=144 lang=cpp
+ * @lc app=leetcode.cn id=199 lang=cpp
  *
- * [144] 二叉树的前序遍历
+ * [199] 二叉树的右视图
  */
 
 // @lc code=start
@@ -17,22 +17,27 @@ struct TreeNode {
   TreeNode(int x, TreeNode *left, TreeNode *right)
       : val(x), left(left), right(right) {}
 };
-
 class Solution {
+private:
+  int depth = 0;
+
 public:
-  vector<int> preorderTraversal(TreeNode *root) {
+  vector<int> rightSideView(TreeNode *root) {
     auto ans = vector<int>();
     Traverse(root, ans);
     return ans;
   }
-
   void Traverse(TreeNode *root, vector<int> &ans) {
     if (root == nullptr) {
       return;
     }
-    ans.push_back(root->val);
-    Traverse(root->left, ans);
+    if (ans.size() <= depth) {
+      ans.push_back(root->val);
+    }
+    depth++;
     Traverse(root->right, ans);
+    Traverse(root->left, ans);
+    depth--;
   }
 };
 // @lc code=end
