@@ -1,551 +1,571 @@
 [
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1.两数之和.cpp.obj", "src\\1.两数之和.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1.两数之和.cpp.obj", "src\\1.两数之和.cpp"],
   "file": "src\\1.两数之和.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1.模板.cpp.obj", "src\\1.模板.cpp"],
-  "file": "src\\1.模板.cpp"
-},
-{
-  "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1014.最佳观光组合.cpp.obj", "src\\1014.最佳观光组合.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1014.最佳观光组合.cpp.obj", "src\\1014.最佳观光组合.cpp"],
   "file": "src\\1014.最佳观光组合.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\11.盛最多水的容器.cpp.obj", "src\\11.盛最多水的容器.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\102.二叉树的层序遍历.cpp.obj", "src\\102.二叉树的层序遍历.cpp"],
+  "file": "src\\102.二叉树的层序遍历.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\103.二叉树的锯齿形层序遍历.cpp.obj", "src\\103.二叉树的锯齿形层序遍历.cpp"],
+  "file": "src\\103.二叉树的锯齿形层序遍历.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\11.盛最多水的容器.cpp.obj", "src\\11.盛最多水的容器.cpp"],
   "file": "src\\11.盛最多水的容器.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1137.第-n-个泰波那契数.cpp.obj", "src\\1137.第-n-个泰波那契数.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1137.第-n-个泰波那契数.cpp.obj", "src\\1137.第-n-个泰波那契数.cpp"],
   "file": "src\\1137.第-n-个泰波那契数.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\116.填充每个节点的下一个右侧节点指针.cpp.obj", "src\\116.填充每个节点的下一个右侧节点指针.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\116.填充每个节点的下一个右侧节点指针.cpp.obj", "src\\116.填充每个节点的下一个右侧节点指针.cpp"],
   "file": "src\\116.填充每个节点的下一个右侧节点指针.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\118.杨辉三角.cpp.obj", "src\\118.杨辉三角.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\118.杨辉三角.cpp.obj", "src\\118.杨辉三角.cpp"],
   "file": "src\\118.杨辉三角.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\119.杨辉三角-ii.cpp.obj", "src\\119.杨辉三角-ii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\119.杨辉三角-ii.cpp.obj", "src\\119.杨辉三角-ii.cpp"],
   "file": "src\\119.杨辉三角-ii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\120.三角形最小路径和.cpp.obj", "src\\120.三角形最小路径和.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\120.三角形最小路径和.cpp.obj", "src\\120.三角形最小路径和.cpp"],
   "file": "src\\120.三角形最小路径和.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\121.买卖股票的最佳时机.cpp.obj", "src\\121.买卖股票的最佳时机.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\121.买卖股票的最佳时机.cpp.obj", "src\\121.买卖股票的最佳时机.cpp"],
   "file": "src\\121.买卖股票的最佳时机.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\122.买卖股票的最佳时机-ii.cpp.obj", "src\\122.买卖股票的最佳时机-ii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\122.买卖股票的最佳时机-ii.cpp.obj", "src\\122.买卖股票的最佳时机-ii.cpp"],
   "file": "src\\122.买卖股票的最佳时机-ii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\130.被围绕的区域.cpp.obj", "src\\130.被围绕的区域.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\130.被围绕的区域.cpp.obj", "src\\130.被围绕的区域.cpp"],
   "file": "src\\130.被围绕的区域.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1314.矩阵区域和.cpp.obj", "src\\1314.矩阵区域和.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1314.矩阵区域和.cpp.obj", "src\\1314.矩阵区域和.cpp"],
   "file": "src\\1314.矩阵区域和.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\136.只出现一次的数字.cpp.obj", "src\\136.只出现一次的数字.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\136.只出现一次的数字.cpp.obj", "src\\136.只出现一次的数字.cpp"],
   "file": "src\\136.只出现一次的数字.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\139.单词拆分.cpp.obj", "src\\139.单词拆分.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\139.单词拆分.cpp.obj", "src\\139.单词拆分.cpp"],
   "file": "src\\139.单词拆分.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\141.环形链表.cpp.obj", "src\\141.环形链表.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\141.环形链表.cpp.obj", "src\\141.环形链表.cpp"],
   "file": "src\\141.环形链表.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\144.二叉树的前序遍历.cpp.obj", "src\\144.二叉树的前序遍历.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\144.二叉树的前序遍历.cpp.obj", "src\\144.二叉树的前序遍历.cpp"],
   "file": "src\\144.二叉树的前序遍历.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\15.三数之和.cpp.obj", "src\\15.三数之和.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\15.三数之和.cpp.obj", "src\\15.三数之和.cpp"],
   "file": "src\\15.三数之和.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1518.换酒问题.cpp.obj", "src\\1518.换酒问题.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1518.换酒问题.cpp.obj", "src\\1518.换酒问题.cpp"],
   "file": "src\\1518.换酒问题.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\152.乘积最大子数组.cpp.obj", "src\\152.乘积最大子数组.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\152.乘积最大子数组.cpp.obj", "src\\152.乘积最大子数组.cpp"],
   "file": "src\\152.乘积最大子数组.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\153.寻找旋转排序数组中的最小值.cpp.obj", "src\\153.寻找旋转排序数组中的最小值.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\153.寻找旋转排序数组中的最小值.cpp.obj", "src\\153.寻找旋转排序数组中的最小值.cpp"],
   "file": "src\\153.寻找旋转排序数组中的最小值.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1567.乘积为正数的最长子数组长度.cpp.obj", "src\\1567.乘积为正数的最长子数组长度.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1567.乘积为正数的最长子数组长度.cpp.obj", "src\\1567.乘积为正数的最长子数组长度.cpp"],
   "file": "src\\1567.乘积为正数的最长子数组长度.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\162.寻找峰值.cpp.obj", "src\\162.寻找峰值.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\162.寻找峰值.cpp.obj", "src\\162.寻找峰值.cpp"],
   "file": "src\\162.寻找峰值.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\167.两数之和-ii-输入有序数组.cpp.obj", "src\\167.两数之和-ii-输入有序数组.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\167.两数之和-ii-输入有序数组.cpp.obj", "src\\167.两数之和-ii-输入有序数组.cpp"],
   "file": "src\\167.两数之和-ii-输入有序数组.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1700.无法吃午餐的学生数量.cpp.obj", "src\\1700.无法吃午餐的学生数量.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1700.无法吃午餐的学生数量.cpp.obj", "src\\1700.无法吃午餐的学生数量.cpp"],
   "file": "src\\1700.无法吃午餐的学生数量.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\189.轮转数组.cpp.obj", "src\\189.轮转数组.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\189.轮转数组.cpp.obj", "src\\189.轮转数组.cpp"],
   "file": "src\\189.轮转数组.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\19.删除链表的倒数第-n-个结点.cpp.obj", "src\\19.删除链表的倒数第-n-个结点.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\19.删除链表的倒数第-n-个结点.cpp.obj", "src\\19.删除链表的倒数第-n-个结点.cpp"],
   "file": "src\\19.删除链表的倒数第-n-个结点.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\190.颠倒二进制位.cpp.obj", "src\\190.颠倒二进制位.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\190.颠倒二进制位.cpp.obj", "src\\190.颠倒二进制位.cpp"],
   "file": "src\\190.颠倒二进制位.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\191.位-1-的个数.cpp.obj", "src\\191.位-1-的个数.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\191.位-1-的个数.cpp.obj", "src\\191.位-1-的个数.cpp"],
   "file": "src\\191.位-1-的个数.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\198.打家劫舍.cpp.obj", "src\\198.打家劫舍.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\198.打家劫舍.cpp.obj", "src\\198.打家劫舍.cpp"],
   "file": "src\\198.打家劫舍.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\2.两数相加.cpp.obj", "src\\2.两数相加.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\199.二叉树的右视图.cpp.obj", "src\\199.二叉树的右视图.cpp"],
+  "file": "src\\199.二叉树的右视图.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\2.两数相加.cpp.obj", "src\\2.两数相加.cpp"],
   "file": "src\\2.两数相加.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\20.有效的括号.cpp.obj", "src\\20.有效的括号.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\20.有效的括号.cpp.obj", "src\\20.有效的括号.cpp"],
   "file": "src\\20.有效的括号.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\203.移除链表元素.cpp.obj", "src\\203.移除链表元素.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\203.移除链表元素.cpp.obj", "src\\203.移除链表元素.cpp"],
   "file": "src\\203.移除链表元素.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\2038.如果相邻两个颜色均相同则删除当前颜色.cpp.obj", "src\\2038.如果相邻两个颜色均相同则删除当前颜色.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\2038.如果相邻两个颜色均相同则删除当前颜色.cpp.obj", "src\\2038.如果相邻两个颜色均相同则删除当前颜色.cpp"],
   "file": "src\\2038.如果相邻两个颜色均相同则删除当前颜色.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\206.反转链表.cpp.obj", "src\\206.反转链表.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\206.反转链表.cpp.obj", "src\\206.反转链表.cpp"],
   "file": "src\\206.反转链表.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\209.长度最小的子数组.cpp.obj", "src\\209.长度最小的子数组.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\209.长度最小的子数组.cpp.obj", "src\\209.长度最小的子数组.cpp"],
   "file": "src\\209.长度最小的子数组.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\21.合并两个有序链表.cpp.obj", "src\\21.合并两个有序链表.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\21.合并两个有序链表.cpp.obj", "src\\21.合并两个有序链表.cpp"],
   "file": "src\\21.合并两个有序链表.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\213.打家劫舍-ii.cpp.obj", "src\\213.打家劫舍-ii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\213.打家劫舍-ii.cpp.obj", "src\\213.打家劫舍-ii.cpp"],
   "file": "src\\213.打家劫舍-ii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\221.最大正方形.cpp.obj", "src\\221.最大正方形.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\221.最大正方形.cpp.obj", "src\\221.最大正方形.cpp"],
   "file": "src\\221.最大正方形.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\231.2-的幂.cpp.obj", "src\\231.2-的幂.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\231.2-的幂.cpp.obj", "src\\231.2-的幂.cpp"],
   "file": "src\\231.2-的幂.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\232.用栈实现队列.cpp.obj", "src\\232.用栈实现队列.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\232.用栈实现队列.cpp.obj", "src\\232.用栈实现队列.cpp"],
   "file": "src\\232.用栈实现队列.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\242.有效的字母异位词.cpp.obj", "src\\242.有效的字母异位词.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\242.有效的字母异位词.cpp.obj", "src\\242.有效的字母异位词.cpp"],
   "file": "src\\242.有效的字母异位词.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\264.丑数-ii.cpp.obj", "src\\264.丑数-ii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\264.丑数-ii.cpp.obj", "src\\264.丑数-ii.cpp"],
   "file": "src\\264.丑数-ii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\278.第一个错误的版本.cpp.obj", "src\\278.第一个错误的版本.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\278.第一个错误的版本.cpp.obj", "src\\278.第一个错误的版本.cpp"],
   "file": "src\\278.第一个错误的版本.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\28.实现-str-str.cpp.obj", "src\\28.实现-str-str.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\28.实现-str-str.cpp.obj", "src\\28.实现-str-str.cpp"],
   "file": "src\\28.实现-str-str.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\283.移动零.cpp.obj", "src\\283.移动零.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\283.移动零.cpp.obj", "src\\283.移动零.cpp"],
   "file": "src\\283.移动零.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\3.无重复字符的最长子串.cpp.obj", "src\\3.无重复字符的最长子串.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\3.无重复字符的最长子串.cpp.obj", "src\\3.无重复字符的最长子串.cpp"],
   "file": "src\\3.无重复字符的最长子串.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\300.最长递增子序列.cpp.obj", "src\\300.最长递增子序列.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\300.最长递增子序列.cpp.obj", "src\\300.最长递增子序列.cpp"],
   "file": "src\\300.最长递增子序列.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\304.二维区域和检索-矩阵不可变.cpp.obj", "src\\304.二维区域和检索-矩阵不可变.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\304.二维区域和检索-矩阵不可变.cpp.obj", "src\\304.二维区域和检索-矩阵不可变.cpp"],
   "file": "src\\304.二维区域和检索-矩阵不可变.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\307.区域和检索-数组可修改.cpp.obj", "src\\307.区域和检索-数组可修改.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\307.区域和检索-数组可修改.cpp.obj", "src\\307.区域和检索-数组可修改.cpp"],
   "file": "src\\307.区域和检索-数组可修改.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\309.最佳买卖股票时机含冷冻期.cpp.obj", "src\\309.最佳买卖股票时机含冷冻期.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\309.最佳买卖股票时机含冷冻期.cpp.obj", "src\\309.最佳买卖股票时机含冷冻期.cpp"],
   "file": "src\\309.最佳买卖股票时机含冷冻期.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\33.搜索旋转排序数组.cpp.obj", "src\\33.搜索旋转排序数组.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\33.搜索旋转排序数组.cpp.obj", "src\\33.搜索旋转排序数组.cpp"],
   "file": "src\\33.搜索旋转排序数组.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\34.在排序数组中查找元素的第一个和最后一个位置.cpp.obj", "src\\34.在排序数组中查找元素的第一个和最后一个位置.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\34.在排序数组中查找元素的第一个和最后一个位置.cpp.obj", "src\\34.在排序数组中查找元素的第一个和最后一个位置.cpp"],
   "file": "src\\34.在排序数组中查找元素的第一个和最后一个位置.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\344.反转字符串.cpp.obj", "src\\344.反转字符串.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\344.反转字符串.cpp.obj", "src\\344.反转字符串.cpp"],
   "file": "src\\344.反转字符串.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\35.搜索插入位置.cpp.obj", "src\\35.搜索插入位置.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\35.搜索插入位置.cpp.obj", "src\\35.搜索插入位置.cpp"],
   "file": "src\\35.搜索插入位置.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\350.两个数组的交集-ii.cpp.obj", "src\\350.两个数组的交集-ii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\350.两个数组的交集-ii.cpp.obj", "src\\350.两个数组的交集-ii.cpp"],
   "file": "src\\350.两个数组的交集-ii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\36.有效的数独.cpp.obj", "src\\36.有效的数独.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\36.有效的数独.cpp.obj", "src\\36.有效的数独.cpp"],
   "file": "src\\36.有效的数独.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\373.查找和最小的k对数字.cpp.obj", "src\\373.查找和最小的k对数字.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\373.查找和最小的k对数字.cpp.obj", "src\\373.查找和最小的k对数字.cpp"],
   "file": "src\\373.查找和最小的k对数字.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\383.赎金信.cpp.obj", "src\\383.赎金信.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\383.赎金信.cpp.obj", "src\\383.赎金信.cpp"],
   "file": "src\\383.赎金信.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\387.字符串中的第一个唯一字符.cpp.obj", "src\\387.字符串中的第一个唯一字符.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\387.字符串中的第一个唯一字符.cpp.obj", "src\\387.字符串中的第一个唯一字符.cpp"],
   "file": "src\\387.字符串中的第一个唯一字符.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\392.判断子序列.cpp.obj", "src\\392.判断子序列.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\392.判断子序列.cpp.obj", "src\\392.判断子序列.cpp"],
   "file": "src\\392.判断子序列.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\413.等差数列划分.cpp.obj", "src\\413.等差数列划分.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\413.等差数列划分.cpp.obj", "src\\413.等差数列划分.cpp"],
   "file": "src\\413.等差数列划分.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\42.接雨水.cpp.obj", "src\\42.接雨水.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\42.接雨水.cpp.obj", "src\\42.接雨水.cpp"],
   "file": "src\\42.接雨水.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\45.跳跃游戏-ii.cpp.obj", "src\\45.跳跃游戏-ii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\45.跳跃游戏-ii.cpp.obj", "src\\45.跳跃游戏-ii.cpp"],
   "file": "src\\45.跳跃游戏-ii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\46.全排列.cpp.obj", "src\\46.全排列.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\46.全排列.cpp.obj", "src\\46.全排列.cpp"],
   "file": "src\\46.全排列.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\47.全排列-ii.cpp.obj", "src\\47.全排列-ii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\47.全排列-ii.cpp.obj", "src\\47.全排列-ii.cpp"],
   "file": "src\\47.全排列-ii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\475.供暖器.cpp.obj", "src\\475.供暖器.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\475.供暖器.cpp.obj", "src\\475.供暖器.cpp"],
   "file": "src\\475.供暖器.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\5.最长回文子串.cpp.obj", "src\\5.最长回文子串.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\5.最长回文子串.cpp.obj", "src\\5.最长回文子串.cpp"],
   "file": "src\\5.最长回文子串.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\50.pow-x-n.cpp.obj", "src\\50.pow-x-n.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\50.pow-x-n.cpp.obj", "src\\50.pow-x-n.cpp"],
   "file": "src\\50.pow-x-n.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\509.斐波那契数.cpp.obj", "src\\509.斐波那契数.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\509.斐波那契数.cpp.obj", "src\\509.斐波那契数.cpp"],
   "file": "src\\509.斐波那契数.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\51.n-皇后.cpp.obj", "src\\51.n-皇后.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\51.n-皇后.cpp.obj", "src\\51.n-皇后.cpp"],
   "file": "src\\51.n-皇后.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\52.n皇后-ii.cpp.obj", "src\\52.n皇后-ii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\52.n皇后-ii.cpp.obj", "src\\52.n皇后-ii.cpp"],
   "file": "src\\52.n皇后-ii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\53.最大子序和.cpp.obj", "src\\53.最大子序和.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\53.最大子序和.cpp.obj", "src\\53.最大子序和.cpp"],
   "file": "src\\53.最大子序和.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\542.01-矩阵.cpp.obj", "src\\542.01-矩阵.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\542.01-矩阵.cpp.obj", "src\\542.01-矩阵.cpp"],
   "file": "src\\542.01-矩阵.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\55.跳跃游戏.cpp.obj", "src\\55.跳跃游戏.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\55.跳跃游戏.cpp.obj", "src\\55.跳跃游戏.cpp"],
   "file": "src\\55.跳跃游戏.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\557.反转字符串中的单词-iii.cpp.obj", "src\\557.反转字符串中的单词-iii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\557.反转字符串中的单词-iii.cpp.obj", "src\\557.反转字符串中的单词-iii.cpp"],
   "file": "src\\557.反转字符串中的单词-iii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\566.重塑矩阵.cpp.obj", "src\\566.重塑矩阵.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\566.重塑矩阵.cpp.obj", "src\\566.重塑矩阵.cpp"],
   "file": "src\\566.重塑矩阵.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\567.字符串的排列.cpp.obj", "src\\567.字符串的排列.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\567.字符串的排列.cpp.obj", "src\\567.字符串的排列.cpp"],
   "file": "src\\567.字符串的排列.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\6.z-字形变换.cpp.obj", "src\\6.z-字形变换.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\6.z-字形变换.cpp.obj", "src\\6.z-字形变换.cpp"],
   "file": "src\\6.z-字形变换.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\60.排列序列.cpp.obj", "src\\60.排列序列.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\60.排列序列.cpp.obj", "src\\60.排列序列.cpp"],
   "file": "src\\60.排列序列.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\617.合并二叉树.cpp.obj", "src\\617.合并二叉树.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\617.合并二叉树.cpp.obj", "src\\617.合并二叉树.cpp"],
   "file": "src\\617.合并二叉树.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\62.不同路径.cpp.obj", "src\\62.不同路径.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\62.不同路径.cpp.obj", "src\\62.不同路径.cpp"],
   "file": "src\\62.不同路径.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\63.不同路径-ii.cpp.obj", "src\\63.不同路径-ii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\63.不同路径-ii.cpp.obj", "src\\63.不同路径-ii.cpp"],
   "file": "src\\63.不同路径-ii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\64.最小路径和.cpp.obj", "src\\64.最小路径和.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\64.最小路径和.cpp.obj", "src\\64.最小路径和.cpp"],
   "file": "src\\64.最小路径和.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\69.x-的平方根.cpp.obj", "src\\69.x-的平方根.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\69.x-的平方根.cpp.obj", "src\\69.x-的平方根.cpp"],
   "file": "src\\69.x-的平方根.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\695.岛屿的最大面积.cpp.obj", "src\\695.岛屿的最大面积.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\695.岛屿的最大面积.cpp.obj", "src\\695.岛屿的最大面积.cpp"],
   "file": "src\\695.岛屿的最大面积.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\7.整数反转.cpp.obj", "src\\7.整数反转.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\7.整数反转.cpp.obj", "src\\7.整数反转.cpp"],
   "file": "src\\7.整数反转.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\70.爬楼梯.cpp.obj", "src\\70.爬楼梯.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\70.爬楼梯.cpp.obj", "src\\70.爬楼梯.cpp"],
   "file": "src\\70.爬楼梯.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\704.二分查找.cpp.obj", "src\\704.二分查找.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\704.二分查找.cpp.obj", "src\\704.二分查找.cpp"],
   "file": "src\\704.二分查找.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\713.乘积小于k的子数组.cpp.obj", "src\\713.乘积小于k的子数组.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\713.乘积小于k的子数组.cpp.obj", "src\\713.乘积小于k的子数组.cpp"],
   "file": "src\\713.乘积小于k的子数组.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\714.买卖股票的最佳时机含手续费.cpp.obj", "src\\714.买卖股票的最佳时机含手续费.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\714.买卖股票的最佳时机含手续费.cpp.obj", "src\\714.买卖股票的最佳时机含手续费.cpp"],
   "file": "src\\714.买卖股票的最佳时机含手续费.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\72.编辑距离.cpp.obj", "src\\72.编辑距离.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\72.编辑距离.cpp.obj", "src\\72.编辑距离.cpp"],
   "file": "src\\72.编辑距离.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\73.矩阵置零.cpp.obj", "src\\73.矩阵置零.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\73.矩阵置零.cpp.obj", "src\\73.矩阵置零.cpp"],
   "file": "src\\73.矩阵置零.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\733.图像渲染.cpp.obj", "src\\733.图像渲染.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\733.图像渲染.cpp.obj", "src\\733.图像渲染.cpp"],
   "file": "src\\733.图像渲染.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\74.搜索二维矩阵.cpp.obj", "src\\74.搜索二维矩阵.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\74.搜索二维矩阵.cpp.obj", "src\\74.搜索二维矩阵.cpp"],
   "file": "src\\74.搜索二维矩阵.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\740.删除并获得点数.cpp.obj", "src\\740.删除并获得点数.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\740.删除并获得点数.cpp.obj", "src\\740.删除并获得点数.cpp"],
   "file": "src\\740.删除并获得点数.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\746.使用最小花费爬楼梯.cpp.obj", "src\\746.使用最小花费爬楼梯.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\746.使用最小花费爬楼梯.cpp.obj", "src\\746.使用最小花费爬楼梯.cpp"],
   "file": "src\\746.使用最小花费爬楼梯.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\77.组合.cpp.obj", "src\\77.组合.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\77.组合.cpp.obj", "src\\77.组合.cpp"],
   "file": "src\\77.组合.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\784.字母大小写全排列.cpp.obj", "src\\784.字母大小写全排列.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\784.字母大小写全排列.cpp.obj", "src\\784.字母大小写全排列.cpp"],
   "file": "src\\784.字母大小写全排列.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\8.字符串转换整数-atoi.cpp.obj", "src\\8.字符串转换整数-atoi.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\8.字符串转换整数-atoi.cpp.obj", "src\\8.字符串转换整数-atoi.cpp"],
   "file": "src\\8.字符串转换整数-atoi.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\82.删除排序链表中的重复元素-ii.cpp.obj", "src\\82.删除排序链表中的重复元素-ii.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\82.删除排序链表中的重复元素-ii.cpp.obj", "src\\82.删除排序链表中的重复元素-ii.cpp"],
   "file": "src\\82.删除排序链表中的重复元素-ii.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\83.删除排序链表中的重复元素.cpp.obj", "src\\83.删除排序链表中的重复元素.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\83.删除排序链表中的重复元素.cpp.obj", "src\\83.删除排序链表中的重复元素.cpp"],
   "file": "src\\83.删除排序链表中的重复元素.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\876.链表的中间结点.cpp.obj", "src\\876.链表的中间结点.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\876.链表的中间结点.cpp.obj", "src\\876.链表的中间结点.cpp"],
   "file": "src\\876.链表的中间结点.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\88.合并两个有序数组.cpp.obj", "src\\88.合并两个有序数组.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\88.合并两个有序数组.cpp.obj", "src\\88.合并两个有序数组.cpp"],
   "file": "src\\88.合并两个有序数组.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\904.水果成篮.cpp.obj", "src\\904.水果成篮.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\904.水果成篮.cpp.obj", "src\\904.水果成篮.cpp"],
   "file": "src\\904.水果成篮.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\91.解码方法.cpp.obj", "src\\91.解码方法.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\91.解码方法.cpp.obj", "src\\91.解码方法.cpp"],
   "file": "src\\91.解码方法.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\918.环形子数组的最大和.cpp.obj", "src\\918.环形子数组的最大和.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\918.环形子数组的最大和.cpp.obj", "src\\918.环形子数组的最大和.cpp"],
   "file": "src\\918.环形子数组的最大和.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\931.下降路径最小和.cpp.obj", "src\\931.下降路径最小和.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\931.下降路径最小和.cpp.obj", "src\\931.下降路径最小和.cpp"],
   "file": "src\\931.下降路径最小和.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\977.有序数组的平方.cpp.obj", "src\\977.有序数组的平方.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\94.二叉树的中序遍历.cpp.obj", "src\\94.二叉树的中序遍历.cpp"],
+  "file": "src\\94.二叉树的中序遍历.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\977.有序数组的平方.cpp.obj", "src\\977.有序数组的平方.cpp"],
   "file": "src\\977.有序数组的平方.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
-  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\994.腐烂的橘子.cpp.obj", "src\\994.腐烂的橘子.cpp"],
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\98.验证二叉搜索树.cpp.obj", "src\\98.验证二叉搜索树.cpp"],
+  "file": "src\\98.验证二叉搜索树.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\994.腐烂的橘子.cpp.obj", "src\\994.腐烂的橘子.cpp"],
   "file": "src\\994.腐烂的橘子.cpp"
 }]
