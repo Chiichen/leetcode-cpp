@@ -6,6 +6,11 @@
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\101.对称二叉树.cpp.obj", "src\\101.对称二叉树.cpp"],
+  "file": "src\\101.对称二叉树.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
   "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\1014.最佳观光组合.cpp.obj", "src\\1014.最佳观光组合.cpp"],
   "file": "src\\1014.最佳观光组合.cpp"
 },
@@ -21,8 +26,28 @@
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\104.二叉树的最大深度.cpp.obj", "src\\104.二叉树的最大深度.cpp"],
+  "file": "src\\104.二叉树的最大深度.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\105.从前序与中序遍历序列构造二叉树.cpp.obj", "src\\105.从前序与中序遍历序列构造二叉树.cpp"],
+  "file": "src\\105.从前序与中序遍历序列构造二叉树.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
   "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\11.盛最多水的容器.cpp.obj", "src\\11.盛最多水的容器.cpp"],
   "file": "src\\11.盛最多水的容器.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\110.平衡二叉树.cpp.obj", "src\\110.平衡二叉树.cpp"],
+  "file": "src\\110.平衡二叉树.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\112.路径总和.cpp.obj", "src\\112.路径总和.cpp"],
+  "file": "src\\112.路径总和.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
@@ -58,6 +83,11 @@
   "directory": "D:\\my repo\\leetcode-cpp",
   "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\122.买卖股票的最佳时机-ii.cpp.obj", "src\\122.买卖股票的最佳时机-ii.cpp"],
   "file": "src\\122.买卖股票的最佳时机-ii.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\124.二叉树中的最大路径和.cpp.obj", "src\\124.二叉树中的最大路径和.cpp"],
+  "file": "src\\124.二叉树中的最大路径和.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
@@ -206,6 +236,11 @@
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\226.翻转二叉树.cpp.obj", "src\\226.翻转二叉树.cpp"],
+  "file": "src\\226.翻转二叉树.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
   "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\231.2-的幂.cpp.obj", "src\\231.2-的幂.cpp"],
   "file": "src\\231.2-的幂.cpp"
 },
@@ -213,6 +248,11 @@
   "directory": "D:\\my repo\\leetcode-cpp",
   "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\232.用栈实现队列.cpp.obj", "src\\232.用栈实现队列.cpp"],
   "file": "src\\232.用栈实现队列.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\236.二叉树的最近公共祖先.cpp.obj", "src\\236.二叉树的最近公共祖先.cpp"],
+  "file": "src\\236.二叉树的最近公共祖先.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
@@ -378,6 +418,11 @@
   "directory": "D:\\my repo\\leetcode-cpp",
   "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\542.01-矩阵.cpp.obj", "src\\542.01-矩阵.cpp"],
   "file": "src\\542.01-矩阵.cpp"
+},
+{
+  "directory": "D:\\my repo\\leetcode-cpp",
+  "arguments": ["D:\\VisualStudio2022\\VC\\Tools\\MSVC\\14.38.33130\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/O2", "/fp:fast", "/DLEETCODELOCAL", "/EHsc", "/DNDEBUG", "/Fobuild\\.objs\\src\\windows\\x64\\release\\src\\543.二叉树的直径.cpp.obj", "src\\543.二叉树的直径.cpp"],
+  "file": "src\\543.二叉树的直径.cpp"
 },
 {
   "directory": "D:\\my repo\\leetcode-cpp",
