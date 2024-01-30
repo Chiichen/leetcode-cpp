@@ -5,57 +5,30 @@
  */
 
 // @lc code=start
+#include <algorithm>
+#include <stack>
 #include <vector>
-#include <map>
+
 using namespace std;
 class Solution {
 public:
-    int trap(vector<int>& height) {
-        int n=height.size();
-        vector<int>leftmax(n,0);
-        int cur=0;
-        for (int i = 0; i < n; i++)
-        {
-            cur=0;
-            if(height[i]>0)
-            {
-                cur=height[i];
-                ++i;
-                while(i<n&&height[i]<cur)
-                {
-                    leftmax[i]=cur-height[i];
-                    ++i;
-                }
-                --i;
-            }
-        }
-        vector<int>rightmax(n,0);
-        for (int i = n-1; i >=0; i--)
-        {
-            cur=0;
-            if(height[i]>0)
-            {
-                cur=height[i];
-                --i;
-                while(i>=0&&height[i]<cur)
-                {
-                    rightmax[i]=cur-height[i];
-                    --i;
-                }
-                ++i;
-            }
-        }
-        int ans=0;
-        for (int i = 0; i < n; i++)
-        {
-            ans+=min(leftmax[i],rightmax[i]);
-        }
-        return ans;
-        
-        
-        
-
+  int trap(vector<int> &height) {
+    int ans = 0;
+    stack<int> st;
+    for (int i = 0; i < height.size(); i++) {
+      while (!st.empty() && height[st.top()] < height[i]) {
+        int cur = st.top();
+        st.pop();
+        if (st.empty())
+          break;
+        int l = st.top();
+        int r = i;
+        int h = min(height[r], height[l]) - height[cur];
+        ans += (r - l - 1) * h;
+      }
+      st.push(i);
     }
+    return ans;
+  }
 };
 // @lc code=end
-

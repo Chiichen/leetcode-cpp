@@ -6,35 +6,36 @@
 
 // @lc code=start
 #include <vector>
-#include <map>
 using namespace std;
 class Solution {
+private:
+  vector<vector<int>> res = {};
+
 public:
-    vector<vector<int>> permute(vector<int>& nums) {
-        int level=0;
-        int n=nums.size();
-        vector<vector<int>> ans;
-        trackback(ans,nums,level,n);
-        return ans;
+  vector<vector<int>> permute(vector<int> &nums) {
+    int level = 0;
+    int n = nums.size();
+    vector<bool> used = {};
+    used.resize(n);
+    vector<int> track = {};
+    trackback(nums, used, track);
+    return res;
+  }
+  void trackback(vector<int> &nums, vector<bool> &used, vector<int> &track) {
+    if (track.size() == nums.size()) {
+      res.push_back(track);
+      return;
     }
-    void trackback(vector<vector<int>>& ans,vector<int>& nums, int level, int n)
-    {
-        if(level==n-1)
-        {
-            ans.push_back(nums);
-            return;
-        }
-        else
-        {
-            for (int i = level; i < n; i++)
-            {
-                swap(nums[i],nums[level]);
-                trackback(ans,nums,level+1,n);
-                swap(nums[i],nums[level]);
-            }
-            
-        }
+    for (int i = 0; i < nums.size(); i++) {
+      if (used[i]) {
+        continue;
+      }
+      track.push_back(nums[i]);
+      used[i] = true;
+      trackback(nums, used, track);
+      track.pop_back();
+      used[i] = false;
     }
+  }
 };
 // @lc code=end
-

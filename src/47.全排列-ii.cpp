@@ -5,52 +5,40 @@
  */
 
 // @lc code=start
+#include <algorithm>
 #include <vector>
-#include <map>
+
 using namespace std;
-class Solution
-{
+class Solution {
+private:
+  vector<int> track = {};
+  vector<vector<int>> res = {};
+  vector<bool> used = {};
+
 public:
-    vector<vector<int>> permuteUnique(vector<int> &nums)
-    {
-        int level = 0;
-        int n = nums.size();
-        vector<vector<int>> ans;
-        trackback(ans, nums, level, n);
-        return ans;
+  vector<vector<int>> permuteUnique(vector<int> &nums) {
+    used.resize(nums.size());
+    sort(nums.begin(), nums.end());
+    trackback(nums);
+    return res;
+  }
+  void trackback(vector<int> &nums) {
+    if (track.size() == nums.size()) {
+      res.push_back(track);
     }
-    void trackback(vector<vector<int>> &ans, vector<int> &nums, int level, int n)
-    {
-        if (level == n - 1)
-        {
-            ans.push_back(nums);
-            return;
-        }
-        else
-        {
-            unordered_set<int> set;
-            for (int i = level; i < n; i++)
-            {
-
-                if (!set.count(nums[i]))
-                {
-                    cout << i << ' ' << level << endl;
-                    set.insert(nums[i]);
-                    swap(nums[i], nums[level]);
-                    trackback(ans, nums, level + 1, n);
-                    swap(nums[i], nums[level]);
-                }
-                else
-                {
-
-                    if (i == n - 1)
-                    {
-                        //trackback(ans, nums, level + 1, n);
-                    }
-                }
-
-            }
-        }
+    for (int i = 0; i < nums.size(); i++) {
+      if (used[i]) {
+        continue;
+      }
+      if (i > 0 && nums[i] == nums[i - 1] && !used[i - 1]) {
+        continue;
+      }
+      track.push_back(nums[i]);
+      used[i] = true;
+      trackback(nums);
+      used[i] = false;
+      track.pop_back();
     }
+  }
 };
 // @lc code=end
