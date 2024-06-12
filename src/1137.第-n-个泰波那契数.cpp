@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+#include <cstring>
 #include <vector>
 using namespace std;
 class Solution {

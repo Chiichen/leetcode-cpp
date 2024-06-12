@@ -5,11 +5,10 @@
  */
 
 // @lc code=start
+#include <string>
+using namespace std;
 class Solution {
 public:
-    bool winnerOfGame(string colors) {
-        
-    }
+  bool winnerOfGame(string colors) {}
 };
 // @lc code=end
-

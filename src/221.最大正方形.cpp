@@ -5,11 +5,10 @@
  */
 
 // @lc code=start
+#include <vector>
+using namespace std;
 class Solution {
 public:
-    int maximalSquare(vector<vector<char>>& matrix) {
-
-    }
+  int maximalSquare(vector<vector<char>> &matrix) {}
 };
 // @lc code=end
-

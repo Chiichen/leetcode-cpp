@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+#include <queue>
 #include <vector>
 #include <map>
 using namespace std; 

@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+#include <cstdlib>
 #include <ctime>
 #include <utility>
 #include <vector>

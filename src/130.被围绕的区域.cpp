@@ -5,6 +5,7 @@
  */
 
 // @lc code=start
+#include <queue>
 #include <vector>
 using namespace std;
 class Solution {

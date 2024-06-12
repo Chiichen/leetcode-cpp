@@ -5,6 +5,8 @@
  */
 
 // @lc code=start
+#include <iostream>
+#include <string>
 #include <vector>
 #include <map>
 using namespace std;

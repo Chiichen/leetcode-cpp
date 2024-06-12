@@ -5,11 +5,11 @@
  */
 
 // @lc code=start
+
+#include <vector>
+using namespace std;
 class Solution {
 public:
-    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-
-    }
+  vector<int> intersect(vector<int> &nums1, vector<int> &nums2) {}
 };
 // @lc code=end
-

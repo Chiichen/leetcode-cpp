@@ -5,6 +5,8 @@
  */
 
 // @lc code=start
+#include <string>
+#include <unordered_set>
 #include <vector>
 #include <map>
 using namespace std;

@@ -5,6 +5,8 @@
  */
 
 // @lc code=start
+#include <algorithm>
+#include <climits>
 #include <vector>
 #include <map>
 using namespace std;
