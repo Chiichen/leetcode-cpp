@@ -6,36 +6,36 @@
 
 // @lc code=start
 
- struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
- };
-
- #include <vector>
+#ifdef LEETCODELOCAL
+struct TreeNode {
+  int val;
+  TreeNode *left;
+  TreeNode *right;
+  TreeNode() : val(0), left(nullptr), right(nullptr) {}
+  TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+  TreeNode(int x, TreeNode *left, TreeNode *right)
+      : val(x), left(left), right(right) {}
+};
+#endif
 #include <map>
- using namespace std;
- 
+#include <vector>
+using namespace std;
 
 class Solution {
 public:
-    TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {//DFS递归的做法
-        if (t1 == nullptr) {
-            return t2;
-        }
-        if (t2 == nullptr) {
-            return t1;
-        }
-        auto merged = new TreeNode(t1->val + t2->val);
-        merged->left = mergeTrees(t1->left, t2->left);
-        merged->right = mergeTrees(t1->right, t2->right);
-        return merged;
+  TreeNode *mergeTrees(TreeNode *t1, TreeNode *t2) { // DFS递归的做法
+    if (t1 == nullptr) {
+      return t2;
     }
+    if (t2 == nullptr) {
+      return t1;
+    }
+    auto merged = new TreeNode(t1->val + t2->val);
+    merged->left = mergeTrees(t1->left, t2->left);
+    merged->right = mergeTrees(t1->right, t2->right);
+    return merged;
+  }
 };
-
 
 // class Solution {
 // public:
@@ -45,21 +45,26 @@ public:
 //         if(pt1!=nullptr&&pt2==nullptr)
 //         {
 //             if(pt1->left!=nullptr) anspta->left=new TreeNode(pt1->left->val);
-//             if(pt1->right!=nullptr) anspta->right=new TreeNode(pt1->right->val);
-//             return;
+//             if(pt1->right!=nullptr) anspta->right=new
+//             TreeNode(pt1->right->val); return;
 //         }
 //         if(pt1==nullptr&&pt2!=nullptr)
 //         {
 //             if(pt2->left!=nullptr) anspta->left=new TreeNode(pt2->left->val);
-//             if(pt2->right!=nullptr) anspta->right=new TreeNode(pt2->right->val);
-//             return;
+//             if(pt2->right!=nullptr) anspta->right=new
+//             TreeNode(pt2->right->val); return;
 //         }
-//         if(pt1->left!=nullptr&&pt2->left!=nullptr) anspta->left=new TreeNode(pt1->left->val+pt2->left->val);
-//         if(pt1->right!=nullptr&&pt2->right!=nullptr) anspta->right=new TreeNode(pt1->right->val+pt2->right->val);
-//         if(pt1->left!=nullptr&&pt2->left==nullptr) anspta->left=new TreeNode(pt1->left->val);
-//         if(pt1->left==nullptr&&pt2->left!=nullptr) anspta->left=new TreeNode(pt2->left->val);
-//         if(pt1->right==nullptr&&pt2->right!=nullptr) anspta->right=new TreeNode(pt2->right->val);
-//         if(pt1->right!=nullptr&&pt2->right==nullptr) anspta->right=new TreeNode(pt1->right->val);
+//         if(pt1->left!=nullptr&&pt2->left!=nullptr) anspta->left=new
+//         TreeNode(pt1->left->val+pt2->left->val);
+//         if(pt1->right!=nullptr&&pt2->right!=nullptr) anspta->right=new
+//         TreeNode(pt1->right->val+pt2->right->val);
+//         if(pt1->left!=nullptr&&pt2->left==nullptr) anspta->left=new
+//         TreeNode(pt1->left->val); if(pt1->left==nullptr&&pt2->left!=nullptr)
+//         anspta->left=new TreeNode(pt2->left->val);
+//         if(pt1->right==nullptr&&pt2->right!=nullptr) anspta->right=new
+//         TreeNode(pt2->right->val);
+//         if(pt1->right!=nullptr&&pt2->right==nullptr) anspta->right=new
+//         TreeNode(pt1->right->val);
 
 //     }
 //     TreeNode* mergeTrees(TreeNode* root1, TreeNode* root2) {
@@ -77,28 +82,38 @@ public:
 //             TreeNode* pt1=q1.front(),*pt2=q2.front(),*anspta=q3.front();
 //             q1.pop(),q2.pop(),q3.pop();
 //             bfs(anspta,pt1,pt2);
-//             if(pt1->left!=nullptr&&pt2->left!=nullptr) q3.push(anspta->left),q1.push(pt1->left),q2.push(pt2->left),bfs(anspta->left,pt1->left,pt2->left);
-//             if(pt1->right!=nullptr&&pt2->right!=nullptr) q3.push(anspta->right),q1.push(pt1->right),q2.push(pt2->right),bfs(anspta->right,pt1->right,pt2->right);
-//             if(pt1->left!=nullptr&&pt2->left==nullptr) q3.push(anspta->left),q1.push(pt1->left),bfs(anspta->left,pt1->left,pt2->left);
-//             if(pt1->left==nullptr&&pt2->left!=nullptr) q3.push(anspta->left),q2.push(pt2->left),bfs(anspta->left,pt1->left,pt2->left);
-//             if(pt1->right==nullptr&&pt2->right!=nullptr) q3.push(anspta->right),q1.push(pt1->right),bfs(anspta->right,pt1->right,pt2->right);
-//             if(pt1->right!=nullptr&&pt2->right==nullptr) q3.push(anspta->right),q2.push(pt1->right),bfs(anspta->right,pt1->right,pt2->right);    
+//             if(pt1->left!=nullptr&&pt2->left!=nullptr)
+//             q3.push(anspta->left),q1.push(pt1->left),q2.push(pt2->left),bfs(anspta->left,pt1->left,pt2->left);
+//             if(pt1->right!=nullptr&&pt2->right!=nullptr)
+//             q3.push(anspta->right),q1.push(pt1->right),q2.push(pt2->right),bfs(anspta->right,pt1->right,pt2->right);
+//             if(pt1->left!=nullptr&&pt2->left==nullptr)
+//             q3.push(anspta->left),q1.push(pt1->left),bfs(anspta->left,pt1->left,pt2->left);
+//             if(pt1->left==nullptr&&pt2->left!=nullptr)
+//             q3.push(anspta->left),q2.push(pt2->left),bfs(anspta->left,pt1->left,pt2->left);
+//             if(pt1->right==nullptr&&pt2->right!=nullptr)
+//             q3.push(anspta->right),q1.push(pt1->right),bfs(anspta->right,pt1->right,pt2->right);
+//             if(pt1->right!=nullptr&&pt2->right==nullptr)
+//             q3.push(anspta->right),q2.push(pt1->right),bfs(anspta->right,pt1->right,pt2->right);
 //         }
 //         while(!q1.empty())
 //         {
 //             TreeNode* pt1=q1.front(),*anspta=q3.front();
 //             q1.pop(),q3.pop();
 //             bfs(anspta,pt1,nullptr);
-//             if(pt1->left!=nullptr) q1.push(pt1->left),q3.push(anspta->left),bfs(anspta->left,pt1->left,nullptr);
-//             if(pt1->right!=nullptr) q1.push(pt1->right),q3.push(anspta->right),bfs(anspta->right,pt1->right,nullptr);
+//             if(pt1->left!=nullptr)
+//             q1.push(pt1->left),q3.push(anspta->left),bfs(anspta->left,pt1->left,nullptr);
+//             if(pt1->right!=nullptr)
+//             q1.push(pt1->right),q3.push(anspta->right),bfs(anspta->right,pt1->right,nullptr);
 //         }
 //         while(!q2.empty())
 //         {
 //             TreeNode* pt1=q2.front(),*anspta=q3.front();
 //             q2.pop(),q3.pop();
 //             bfs(anspta,pt1,nullptr);
-//             if(pt1->left!=nullptr) q1.push(pt1->left),q3.push(anspta->left),bfs(anspta->left,pt1->left,nullptr);
-//             if(pt1->right!=nullptr) q1.push(pt1->right),q3.push(anspta->right),bfs(anspta->right,pt1->right,nullptr);
+//             if(pt1->left!=nullptr)
+//             q1.push(pt1->left),q3.push(anspta->left),bfs(anspta->left,pt1->left,nullptr);
+//             if(pt1->right!=nullptr)
+//             q1.push(pt1->right),q3.push(anspta->right),bfs(anspta->right,pt1->right,nullptr);
 //         }
 //         return ansroot;
 //         }
@@ -106,4 +121,3 @@ public:
 //     }
 // };
 // @lc code=end
-
